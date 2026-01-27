@@ -7,8 +7,8 @@ A B C
 A B C D
 A B C D E
 """
-int((input("Enter the number of rows: ")))
-for i in range(1, 6):
+num=int((input("Enter the number of rows: ")))
+for i in range(1, num+1):
     for j in range(1, i + 1):
         print(chr(j+64), end=" ")
     print()
@@ -22,8 +22,8 @@ C C C
 D D D D
 E E E E E
 """
-int((input("Enter the number of rows: ")))
-for i in range(1, 6):
+num1=int((input("Enter the number of rows: ")))
+for i in range(1,num1+1):
     for j in range(1, i + 1):
         print(chr(i+64), end=" ")
     print()
@@ -37,8 +37,8 @@ D E F
 G H I J
 K L M N O
 """
-int((input("Enter the number of rows: ")))
-for i in range(1, 6):
+num2= int((input("Enter the number of rows: ")))
+for i in range(1, num2+1):
     for j in range(1, i + 1):
         print(chr((i*(i-1))//2 + j + 64), end=" ")
     print()
