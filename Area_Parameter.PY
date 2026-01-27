@@ -1,6 +1,6 @@
 # compare area and parameter of rectangle
 
-length= int(input("Enter the length :"))
+length= int(input("Enter the length :")) #User Input
 width = int(input("Enter the width :"))
 area= length*width
 para = 2*(length + width)
