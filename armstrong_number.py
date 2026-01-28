@@ -1,3 +1,4 @@
+
 # WAP to create a program to check whether a number is an Armstrong number or not
 
 num = int(input("Enter a number: "))  # User input
