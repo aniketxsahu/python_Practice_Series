@@ -1,5 +1,5 @@
 # WAP to reverse a string
-str1 = input("Enter a string: ")
+str1 = input("Enter a string:")
 reversed_str = str1[::-1]
 print("Reversed string is:", reversed_str)
 
