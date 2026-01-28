@@ -1,4 +1,4 @@
-#WAP to print the number is Even or Odd
+# WAP to print the number is Even or Odd
 
 num=int(input("Enter a number:")) # User input
 if num%2==0:
